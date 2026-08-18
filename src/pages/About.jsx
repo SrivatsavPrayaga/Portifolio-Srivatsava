@@ -22,8 +22,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Hyderabad, specialised in
-          React, C#(ASP.NET), Gen AI automations, Azure Cloud.
+          AI Engineer and Agentic AI Developer with 5+ years of experience building enterprise AI solutions, Copilot Studio agents, and AI-powered automations. Specialized in Agentic AI, Generative AI, RAG workflows, Power Platform, Azure services, and enterprise integrations.
         </p>
       </div>
 

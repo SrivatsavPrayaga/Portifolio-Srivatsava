@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Srivatsav</span>
         👋
         <br />
-        A Software Engineer from Hyderabad Working at TCS.
+        AI Engineer & Agentic AI Developer | Microsoft
       </h1>
     );
 

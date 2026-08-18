@@ -24,140 +24,163 @@ import {
     tailwindcss,
     threads,
     typescript,
-   
 } from "../assets/icons";
 
 export const skills = [
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
     {
         imageUrl: react,
         name: "React",
         type: "Frontend",
     },
     {
+        imageUrl: typescript,
+        name: "TypeScript",
+        type: "Language",
+    },
+    {
+        imageUrl: javascript,
+        name: "Python",
+        type: "Language",
+    },
+    {
+        imageUrl: nodejs,
+        name: "FastAPI",
+        type: "Backend",
+    },
+    {
+        imageUrl: express,
+        name: "C# / .NET",
+        type: "Backend",
+    },
+    {
+        imageUrl: html,
+        name: "Azure OpenAI",
+        type: "AI",
+    },
+    {
+        imageUrl: css,
+        name: "Copilot Studio",
+        type: "AI Platform",
+    },
+    {
+        imageUrl: git,
+        name: "Power Automate",
+        type: "Automation",
+    },
+    {
+        imageUrl: github,
+        name: "Power Platform",
+        type: "Platform",
+    },
+    {
+        imageUrl: mongodb,
+        name: "Fabric Data Agents",
+        type: "AI",
+    },
+    {
+        imageUrl: motion,
+        name: "REST APIs",
+        type: "Backend",
+    },
+    {
+        imageUrl: mui,
+        name: "RAG Workflows",
+        type: "AI",
+    },
+    {
+        imageUrl: nextjs,
+        name: "Azure Cloud",
+        type: "Cloud",
+    },
+    {
         imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
+        name: "Agentic AI",
+        type: "AI",
     },
     {
         imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
+        name: "Generative AI",
+        type: "AI",
     },
     {
         imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
+        name: "SharePoint",
+        type: "Enterprise",
     }
 ];
 
 export const experiences = [
     {
-        title: "Engineer (Tech Lead)",
-        company_name: "Tata Consultancy Services (meta)",
-        icon: meta, // Replace 'meta' with your meta logo path
-        iconBg: "#fbc3bc",
-        date: "Feb 2022 – Present",
+        title: "Senior Digital Engineer | Agentic AI",
+        company_name: "Tata Consultancy Services | Microsoft",
+        icon: meta,
+        iconBg: "#0078d4",
+        date: "Sep 2025 – Present",
         points: [
-            "Managing AI-driven merchandising automation and daily operations for Microsoft Teams App Store.",
-            "Developed an AI app classification agent using React, C#, and Azure OpenAI to automate app categorization.",
-            "Built an AI-powered search bot using RAG methodology and vectorized DB for NLP-based app discovery.",
-            "Created an industry analysis tool for web scraping using Playwright and Power BI for data visualization.",
-            "Developed internal automation tools using React and C# to streamline data retrieval and merchandising decisions."
+            "Built and deployed AI agents and copilots using Copilot Studio and Microsoft Fabric Data Agents.",
+            "Rapidly developed AI proof-of-concepts and business automation solutions for Microsoft stakeholders.",
+            "Integrated AI solutions with enterprise reporting systems, Power BI semantic models, and Microsoft data platforms.",
+            "Designed agentic workflows using Copilot Studio, Power Automate, and RAG-based architectures.",
+            "Worked across Azure AML-Runners, Vienna, and RAG workflows handling configuration and troubleshooting.",
+            "Built and refined Copilot/Fabric Data Agents for Microsoft EMEA analytics, aligning AI outputs with Power BI semantic models.",
+            "Troubleshot enterprise blockers including DLP restrictions, HTTP action limits, and SharePoint permissions.",
+            "Collaborated with Microsoft and Sonata stakeholders on agentic AI, Power BI validation, and Excel automation."
+        ],
+    },
+    {
+        title: "IT Analyst",
+        company_name: "Tata Consultancy Services | Microsoft",
+        icon: meta,
+        iconBg: "#fbc3bc",
+        date: "Feb 2022 – Jun 2025",
+        points: [
+            "Designed and developed enterprise AI solutions leveraging Azure OpenAI Services and GPT-based LLMs.",
+            "Built and enhanced Copilot Studio applications and conversational AI experiences for Microsoft business stakeholders.",
+            "Developed ASP.NET/C# web applications and REST APIs integrated with Azure services and AI capabilities.",
+            "Implemented Power Automate workflows to automate business processes and orchestrate end-to-end workflow execution.",
+            "Built AI-powered recommendation solutions that evaluated business criteria and suggested eligible opportunities.",
+            "Integrated enterprise applications with Azure OpenAI and backend systems enabling intelligent automation.",
+            "Developed scalable backend services using Python, C#, .NET ensuring enterprise-grade reliability.",
+            "Contributed to AI adoption initiatives by delivering low-code and pro-code solutions using Power Platform."
         ],
     },
     {
         title: "Software Developer",
         company_name: "Teclx Technologies Pvt Ltd",
-        icon: meta, // Replace 'teclx' with your Teclx logo path
+        icon: meta,
         iconBg: "#b7e4c7",
         date: "Feb 2021 – Aug 2021",
         points: [
-            "Developed UI for an Inventory Manager System (IMS) for admins managing accommodations.",
-            "Built a Python-based backend to generate QR codes linked to inventory data.",
-            "Designed a robust UI for efficient data handling and a user-friendly experience."
+            "Developed a QR-based inventory management system enhancing security, accessibility, and real-time tracking.",
+            "Designed intuitive UI for seamless navigation and structured data handling processes.",
+            "Integrated Python-based backend solutions to optimize inventory workflows and C# APIs for secure authentication.",
+            "Streamlined inventory tracking, automation, and user accessibility making systems more efficient and scalable."
         ],
     },
     {
         title: "Software Engineer",
         company_name: "Parcss Systems Pvt Ltd",
-        icon: meta, // Replace 'parcss' with your Parcss logo path
+        icon: meta,
         iconBg: "#accbe1",
         date: "Apr 2020 – Jan 2021",
         points: [
-            "Built and enhanced video calling web applications using Angular 10 with Python backend.",
-            "Integrated Twilio services for seamless video calling functionality.",
-            "Conducted front-end testing and resolved cross-browser compatibility issues."
+            "Contributed to end-to-end development using Angular 10 and Python focusing on enhancing user experience.",
+            "Contributed to a video calling web application integrating Twilio services for seamless real-time communication.",
+            "Optimized UI performance, resolved cross-browser compatibility issues ensuring smooth user experience.",
+            "Utilized Python-based backend solutions to manage data flow and improve API efficiency."
         ],
     },
     {
-        title: "HR Technical Associate",
+        title: "Technical Associate",
         company_name: "Amazon Development Centre (I) Pvt Ltd",
-        icon: meta, // Replace 'amazon' with your Amazon logo path
+        icon: meta,
         iconBg: "#a2d2ff",
-        date: "Sep 2019 – Feb 2020",
+        date: "Sep 2019 – Mar 2020",
         points: [
-            "Managed employee timekeeping processes and resolved payroll discrepancies.",
-            "Collaborated with cross-functional teams to meet operational SLAs."
+            "Worked with HR operational tools including Lenel and Timekeeper ensuring accurate timekeeping and payroll processing.",
+            "Managed attendance tracking, resolved discrepancies while maintaining operational efficiency and compliance standards.",
+            "Collaborated with cross-functional teams to enhance automation processes and streamline HR workflows.",
+            "Supported payroll integrity across systems ensuring seamless employee management."
         ],
     }
 ];
