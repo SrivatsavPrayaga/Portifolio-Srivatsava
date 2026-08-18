@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <main className={isFirstLoad ? 'bg-slate-300/20' : ''}>
-      <Router>
+      <Router basename="/Portifolio-Srivatsava">
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />

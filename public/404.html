@@ -4,19 +4,30 @@
     <meta charset="utf-8">
     <title>Redirecting...</title>
     <script type="text/javascript">
-      // Redirect for GitHub Pages SPA
-      var pathSegments = window.location.pathname.split('/').slice(2);
-      var newPath = '/' + pathSegments.join('/');
-      
-      if (window.location.search) {
-        newPath += window.location.search;
+      // Redirect for GitHub Pages SPA - Fixed routing
+      (function() {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+
+      // If no session redirect, handle pathname redirect
+      if (!window.location.pathname.match(/^\/Portifolio-Srivatsava\//)) {
+        var pathSegments = window.location.pathname.split('/').slice(2);
+        var newPath = '/' + pathSegments.join('/');
+        
+        if (window.location.search) {
+          newPath += window.location.search;
+        }
+        if (window.location.hash) {
+          newPath += window.location.hash;
+        }
+        
+        sessionStorage.redirect = newPath || '/';
+        window.location.href = '/Portifolio-Srivatsava/';
       }
-      if (window.location.hash) {
-        newPath += window.location.hash;
-      }
-      
-      sessionStorage.redirect = newPath || '/';
-      window.location.href = window.location.pathname.split('/').slice(0, 2).join('/') + '/';
     </script>
   </head>
   <body>

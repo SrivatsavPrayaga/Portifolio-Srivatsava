@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
-// Handle GitHub Pages SPA redirect
+// Handle GitHub Pages SPA redirect from 404.html
 (function() {
   const redirect = sessionStorage.redirect;
   delete sessionStorage.redirect;

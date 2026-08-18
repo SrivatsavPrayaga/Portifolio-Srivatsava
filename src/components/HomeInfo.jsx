@@ -18,7 +18,8 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Worked with many companies <br /> and picked up many skills along the way
+          🤖 <strong>Agentic AI & Copilot Studio</strong><br />
+          Building intelligent AI agents and conversational experiences
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>
@@ -33,11 +34,12 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium text-center sm:text-xl'>
-          Led multiple projects to success over the years. <br /> Curious about the impact?
+          💻 <strong>Cloud & Enterprise Solutions</strong><br />
+          Azure OpenAI, Power Platform, and scalable backends
         </p>
 
         <Link to='/projects' className='neo-brutalism-white neo-btn'>
-          Visit my portfolio
+          View projects
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
@@ -48,11 +50,12 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
       <p className='font-medium sm:text-xl text-center'>
-        Need a project done or looking for a dev? <br/> I'm just a few keystrokes away
+        ✨ <strong>Let's build something amazing</strong><br />
+        AI solutions, automations, and innovative tech
       </p>
 
       <Link to='/contact' className='neo-brutalism-white neo-btn'>
-        Let's talk
+        Get in touch
         <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
       </Link>
     </div>
